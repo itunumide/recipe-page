@@ -13,6 +13,9 @@ body{
     background-color: hsl(30, 54%, 90%);
     color:hsl(30, 10%, 34%) ;
     font-size: 1.1rem;
+    font-family: "Outfit", serif;
+  font-weight: 400;
+  font-style: normal;
     
 }
 .recipe-page__prep-time{
@@ -41,11 +44,20 @@ img{
     font-size: 3rem;
     margin: 1rem 0;
 }
+.prep-time__label{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+strong{
+    font-size: 700;
+}
 h3{
     color: rgb(133, 70, 50);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.8rem;
     margin-bottom: 1rem ;
+     font-family: "Young serif", serif;
 }
 .custom-bullet::marker {
   color: rgb(133, 70, 50); 
