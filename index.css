@@ -5,7 +5,7 @@
 }
 body{
     max-width: 1440px;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,7 @@ body{
     color:hsl(30, 10%, 34%) ;
     font-size: 1.1rem;
     font-family: "Outfit", serif;
-  font-weight: 400;
-  font-style: normal;
-    
+  font-weight: 400;    
 }
 .recipe-page__prep-time{
     background-color: hsl(330, 100%, 98%);
@@ -25,29 +23,45 @@ body{
     
 }
 .recipe-page{
-    max-width: 50vw;
+    max-width: 55vw;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 3rem;
     
+}
+
+img{
+    width: 100%;
+     border-radius: .5rem;
 }
 .recipe-page__content{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-}
-img{
-    width: 100%;
-     border-radius: .5rem;
+    gap: 1.5rem;
 }
 .recipe-page__title{
     font-size: 3rem;
     margin: 1rem 0;
 }
+.recipe-page__ingredients,.recipe-page__instructions,.recipe-page__nutrition{
+    margin-left: -1.3rem;
+    padding-bottom: 1.3rem;
+    
+}
+.recipe-page__ingredients,.recipe-page__instructions{
+border-bottom: 1px solid hsl(30, 18%, 87%);
+}
 .prep-time__label{
     color: hsl(332, 51%, 32%);
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin:.5rem  1.5rem 1rem;
+
+    
+}
+.spaced-list li {
+  padding-left: .8em;
+  margin-bottom: .6rem;
 }
 strong{
     font-size: 700;
@@ -57,12 +71,32 @@ h3{
     font-weight: 400;
     font-size: 1.8rem;
     margin-bottom: 1rem ;
+    margin-left: 1.5rem;
      font-family: "Young serif", serif;
 }
 .custom-bullet::marker {
   color: rgb(133, 70, 50); 
   font-weight: 600;
- 
+}
+.nutrition__table{
+   width: 100%;
+   border-collapse: collapse;
+  
+    /* font-family: 'Georgia', serif; */
+}
+.nutrition__description,.nutrition__table{
+ margin-left: 1.3rem;
+
+}
+.nutrition__table tr td {
+ border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.nutrition__table td {
+  border: none;
+}
+
+.nutrition__table tr:last-child td {
+  border-bottom: none; /* Or whatever style you want */
 }
 .attribution {
     font-size: 11px;
