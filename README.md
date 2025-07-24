@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - Flexbox for layout
   - Media queries for responsive design
   - Google Fonts – Outfit and Young Serif
-  - Desktop-first workflow
+  - Mobile-first workflow
 
 
 ### What I learned
